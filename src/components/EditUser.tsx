@@ -1,39 +1,20 @@
-import React from "react";
+
 import { type User } from "../types/types";
-import usuarios from "../data/usuarios.json";
+
 import { schema } from "./AddUser";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-type FromData = {
-  telefono: string;
-  direccion: string;
-  contrasena: string;
-  nombre_apellidos: string;
-  correo: string;
-  entidad: string;
-  conf_contrasena: string;
-};
+
 
 interface EditUserProps {
   isVisible: () => void;
   user: User;
 }
 //endpoint de prueba
-const editar = (user: FromData, id: number) => {
-  const newUsers=usuarios.forEach((u) => {
-    if (u.id === id) {
-      u.nombre = user.nombre_apellidos;
-      u.Entidad = user.entidad;
-      u.email = user.correo;
-      u.telefono = user.telefono;
-      u.direccion = user.direccion;
-      u.contrasena = user.contrasena;
-    }
-  });
+
   
-  console.log("usuarios" + usuarios);
-};
+  
 
 export function EditUser({ isVisible, user }: EditUserProps) {
   const {
@@ -46,7 +27,7 @@ export function EditUser({ isVisible, user }: EditUserProps) {
 
   const onsubmit = handleSubmit((data) => {
     console.log(data);
-    editar(data, user.id);
+    
     console.log("Succefull");
     isVisible();
   });

@@ -1,7 +1,6 @@
 export type User = {
     id: number
-    nombre: string
-    apellido: string
+    nombre_apellidos:string
     email: string
     telefono: string
     Entidad: string

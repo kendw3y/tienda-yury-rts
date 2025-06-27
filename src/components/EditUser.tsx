@@ -42,7 +42,7 @@ export function EditUser({ isVisible, user }: EditUserProps) {
                 Nombre y Apellidos
               </label>
               <input
-                defaultValue={user.nombre}
+                defaultValue={user.nombre_apellidos}
                 type="tel"
                 className="w-full px-3 py-2 rounded-md bg-gray-800 text-blanco focus:outline-none  focus:bg-gray-700 transition-colors ease-in-out duration-500"
                 {...register("nombre_apellidos")}

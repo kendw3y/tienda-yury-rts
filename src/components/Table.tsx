@@ -127,7 +127,8 @@ export function Table({ data, columnas, title }: TableProps) {
                   {flexRender(
                     header.column.columnDef.header,
                     header.getContext()
-                  )}
+                  )
+                  }
                 </th>
               ))}
             </tr>
@@ -142,6 +143,7 @@ export function Table({ data, columnas, title }: TableProps) {
                   className="py-4 px-2 text-center border-b border-[#3E4F6F]"
                 >
                   {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                  
                 </td>
               ))}
             </tr>

@@ -1,8 +1,7 @@
 [
     {
         "id": 1,
-        "nombre": "Karel",
-        "apellido": "Gonzalez",
+        "nombre_apellidos": "Karel Gonzalez",
         "email": "karel@gmail.com",
         "telefono": "123456789",
         "Entidad": "Universidad de Murcia",
@@ -11,8 +10,7 @@
     },
     {
         "id": 2,
-        "nombre": "Juan",
-        "apellido": "Perez",
+        "nombre_apellidos": "Juan Perez",
         "email": "juan@gmail.com",
         "telefono": "987654321",
         "Entidad": "Universidad de Murcia",
@@ -21,8 +19,7 @@
     },
     {
         "id": 3,
-        "nombre": "Pedro",
-        "apellido": "Rodriguez",
+        "nombre_apellidos": "Pedro Rodriguez",
         "email": "pedro@gmail.com",
         "telefono": "876543210",
         "Entidad": "Universidad de Murcia",
@@ -31,8 +28,7 @@
     },
     {
         "id": 4,
-        "nombre": "Maria",
-        "apellido": "Sanchez",
+        "nombre_apellidos": "Maria Sanchez",
         "email": "maria@gmail.com",
         "telefono": "765432109",
         "Entidad": "Universidad de Murcia",
@@ -41,8 +37,7 @@
     },
     {
         "id": 5,
-        "nombre": "Luis",
-        "apellido": "Garcia",
+        "nombre_apellidos": "Luis Garcia",
         "email": "luis@gmail.com",
         "telefono": "654321098",
         "Entidad": "Universidad de Murcia",
@@ -51,8 +46,7 @@
     },
     {
         "id": 6,
-        "nombre": "Juan",
-        "apellido": "Perez",
+        "nombre_apellidos": "Juan Perez",
         "email": "juan@gmail.com",
         "telefono": "987654321",
         "Entidad": "Universidad de Murcia",
@@ -61,8 +55,7 @@
     },
     {
         "id": 7,
-        "nombre": "Pedro",
-        "apellido": "Rodriguez",
+        "nombre_apellidos": "Pedro Rodriguez",
         "email": "pedro@gmail.com",
         "telefono": "876543210",
         "Entidad": "Universidad de Murcia",
@@ -71,8 +64,7 @@
     },
     {
         "id": 8,
-        "nombre": "Maria",
-        "apellido": "Sanchez",
+        "nombre_apellidos": "Maria Sanchez",
         "email": "maria@gmail.com",
         "telefono": "765432109",
         "Entidad": "Universidad de Murcia",
@@ -81,8 +73,7 @@
     },
     {
         "id": 9,
-        "nombre": "Luis",
-        "apellido": "Garcia",
+        "nombre_apellidos": "Luis Garcia",
         "email": "luis@gmail.com",
         "telefono": "654321098",
         "Entidad": "Universidad de Murcia",
@@ -91,8 +82,7 @@
     },
     {
         "id": 10,
-        "nombre": "Juan",
-        "apellido": "Perez",
+        "nombre_apellidos": "Juan Perez",
         "email": "juan@gmail.com",
         "telefono": "987654321",
         "Entidad": "Universidad de Murcia",
@@ -101,8 +91,7 @@
     },
     {
         "id": 11,
-        "nombre": "Pedro",
-        "apellido": "Rodriguez",
+        "nombre_apellidos": "Pedro Rodriguez",
         "email": "pedro@gmail.com",
         "telefono": "876543210",
         "Entidad": "Universidad de Murcia",
@@ -111,8 +100,7 @@
     },
     {
         "id": 12,
-        "nombre": "Maria",
-        "apellido": "Sanchez",
+        "nombre_apellidos": "Maria Sanchez",
         "email": "maria@gmail.com",
         "telefono": "765432109",
         "Entidad": "Universidad de Murcia",
@@ -121,8 +109,7 @@
     },
     {
         "id": 13,
-        "nombre": "Luis",
-        "apellido": "Garcia",
+        "nombre_apellidos": "Luis Garcia",
         "email": "luis@gmail.com",
         "telefono": "654321098",
         "Entidad": "Universidad de Murcia",
@@ -131,8 +118,7 @@
     },
     {
         "id": 14,
-        "nombre": "Juan",
-        "apellido": "Perez",
+        "nombre_apellidos": "Juan Perez",
         "email": "juan@gmail.com",
         "telefono": "987654321",
         "Entidad": "Universidad de Murcia",
@@ -141,8 +127,7 @@
     },
     {
         "id": 15,
-        "nombre": "Pedro",
-        "apellido": "Rodriguez",
+        "nombre_apellidos": "Pedro Rodriguez",
         "email": "pedro@gmail.com",
         "telefono": "876543210",
         "Entidad": "Universidad de Murcia",
@@ -151,8 +136,7 @@
     },
     {
         "id": 16,
-        "nombre": "Maria",
-        "apellido": "Sanchez",
+        "nombre_apellidos": "Maria Sanchez",
         "email": "maria@gmail.com",
         "telefono": "765432109",
         "Entidad": "Universidad de Murcia",
@@ -161,8 +145,7 @@
     },
     {
         "id": 17,
-        "nombre": "Luis",
-        "apellido": "Garcia",
+        "nombre_apellidos": "Luis Garcia",
         "email": "luis@gmail.com",
         "telefono": "654321098",
         "Entidad": "Universidad de Murcia",
@@ -171,8 +154,7 @@
     },
     {
         "id": 18,
-        "nombre": "Juan",
-        "apellido": "Perez",
+        "nombre_apellidos": "Juan Perez",
         "email": "juan@gmail.com",
         "telefono": "987654321",
         "Entidad": "Universidad de Murcia",
@@ -181,8 +163,7 @@
     },
     {
         "id": 19,
-        "nombre": "Pedro",
-        "apellido": "Rodriguez",
+        "nombre_apellidos": "Pedro Rodriguez",
         "email": "pedro@gmail.com",
         "telefono": "876543210",
         "Entidad": "Universidad de Murcia",
@@ -191,8 +172,7 @@
     },
     {
         "id": 20,
-        "nombre": "Maria",
-        "apellido": "Sanchez",
+        "nombre_apellidos": "Maria Sanchez",
         "email": "maria@gmail.com",
         "telefono": "765432109",
         "Entidad": "Universidad de Murcia",
@@ -201,8 +181,7 @@
     },
     {
         "id": 21,
-        "nombre": "Luis",
-        "apellido": "Garcia",
+        "nombre_apellidos": "Luis Garcia",
         "email": "luis@gmail.com",
         "telefono": "654321098",
         "Entidad": "Universidad de Murcia",
@@ -211,8 +190,7 @@
     },
     {
         "id": 22,
-        "nombre": "Juan",
-        "apellido": "Perez",
+        "nombre_apellidos": "Juan Perez",
         "email": "juan@gmail.com",
         "telefono": "987654321",
         "Entidad": "Universidad de Murcia",
@@ -221,8 +199,7 @@
     },
     {
         "id": 23,
-        "nombre": "Pedro",
-        "apellido": "Rodriguez",
+        "nombre_apellidos": "Pedro Rodriguez",
         "email": "pedro@gmail.com",
         "telefono": "876543210",
         "Entidad": "Universidad de Murcia",
@@ -231,8 +208,7 @@
     },
     {
         "id": 24,
-        "nombre": "Maria",
-        "apellido": "Sanchez",
+        "nombre_apellidos": "Maria Sanchez",
         "email": "maria@gmail.com",
         "telefono": "765432109",
         "Entidad": "Universidad de Murcia",
@@ -241,8 +217,7 @@
     },
     {
         "id": 25,
-        "nombre": "Luis",
-        "apellido": "Garcia",
+        "nombre_apellidos": "Luis Garcia",
         "email": "luis@gmail.com",
         "telefono": "654321098",
         "Entidad": "Universidad de Murcia",
@@ -251,8 +226,7 @@
     },
     {
         "id": 26,
-        "nombre": "Juan",
-        "apellido": "Perez",
+        "nombre_apellidos": "Juan Perez",
         "email": "juan@gmail.com",
         "telefono": "987654321",
         "Entidad": "Universidad de Murcia",
@@ -261,8 +235,7 @@
     },
     {
         "id": 27,
-        "nombre": "Pedro",
-        "apellido": "Rodriguez",
+        "nombre_apellidos": "Pedro Rodriguez",
         "email": "pedro@gmail.com",
         "telefono": "876543210",
         "Entidad": "Universidad de Murcia",

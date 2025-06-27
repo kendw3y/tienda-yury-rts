@@ -8,14 +8,9 @@ export function AdminUser() {
   const data: User[] = usuarios;
   const columnas = [
     {
-      header: "Nombre",
-      accessorKey: "nombre",
+      header:"Nombre y apellidos",
+      accessorKey:"nombre_apellidos",
     },
-    {
-      header: "Apellido",
-      accessorKey: "apellido",
-    },
-
     {
       header: "Email",
       accessorKey: "email",

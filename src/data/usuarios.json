@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "nombre": "Karel",
+        "apellido": "Gonzalez",
+        "email": "karel@gmail.com",
+        "telefono": "123456789",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 1",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 2,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juan@gmail.com",
+        "telefono": "987654321",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 2",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 3,
+        "nombre": "Pedro",
+        "apellido": "Rodriguez",
+        "email": "pedro@gmail.com",
+        "telefono": "876543210",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 3",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 4,
+        "nombre": "Maria",
+        "apellido": "Sanchez",
+        "email": "maria@gmail.com",
+        "telefono": "765432109",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 4",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 5,
+        "nombre": "Luis",
+        "apellido": "Garcia",
+        "email": "luis@gmail.com",
+        "telefono": "654321098",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 5",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 6,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juan@gmail.com",
+        "telefono": "987654321",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 6",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 7,
+        "nombre": "Pedro",
+        "apellido": "Rodriguez",
+        "email": "pedro@gmail.com",
+        "telefono": "876543210",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 7",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 8,
+        "nombre": "Maria",
+        "apellido": "Sanchez",
+        "email": "maria@gmail.com",
+        "telefono": "765432109",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 8",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 9,
+        "nombre": "Luis",
+        "apellido": "Garcia",
+        "email": "luis@gmail.com",
+        "telefono": "654321098",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 9",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 10,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juan@gmail.com",
+        "telefono": "987654321",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 10",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 11,
+        "nombre": "Pedro",
+        "apellido": "Rodriguez",
+        "email": "pedro@gmail.com",
+        "telefono": "876543210",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 11",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 12,
+        "nombre": "Maria",
+        "apellido": "Sanchez",
+        "email": "maria@gmail.com",
+        "telefono": "765432109",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 12",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 13,
+        "nombre": "Luis",
+        "apellido": "Garcia",
+        "email": "luis@gmail.com",
+        "telefono": "654321098",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 13",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 14,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juan@gmail.com",
+        "telefono": "987654321",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 14",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 15,
+        "nombre": "Pedro",
+        "apellido": "Rodriguez",
+        "email": "pedro@gmail.com",
+        "telefono": "876543210",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 15",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 16,
+        "nombre": "Maria",
+        "apellido": "Sanchez",
+        "email": "maria@gmail.com",
+        "telefono": "765432109",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 16",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 17,
+        "nombre": "Luis",
+        "apellido": "Garcia",
+        "email": "luis@gmail.com",
+        "telefono": "654321098",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 17",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 18,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juan@gmail.com",
+        "telefono": "987654321",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 18",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 19,
+        "nombre": "Pedro",
+        "apellido": "Rodriguez",
+        "email": "pedro@gmail.com",
+        "telefono": "876543210",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 19",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 20,
+        "nombre": "Maria",
+        "apellido": "Sanchez",
+        "email": "maria@gmail.com",
+        "telefono": "765432109",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 20",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 21,
+        "nombre": "Luis",
+        "apellido": "Garcia",
+        "email": "luis@gmail.com",
+        "telefono": "654321098",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 21",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 22,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juan@gmail.com",
+        "telefono": "987654321",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 22",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 23,
+        "nombre": "Pedro",
+        "apellido": "Rodriguez",
+        "email": "pedro@gmail.com",
+        "telefono": "876543210",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 23",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 24,
+        "nombre": "Maria",
+        "apellido": "Sanchez",
+        "email": "maria@gmail.com",
+        "telefono": "765432109",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 24",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 25,
+        "nombre": "Luis",
+        "apellido": "Garcia",
+        "email": "luis@gmail.com",
+        "telefono": "654321098",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 25",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 26,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juan@gmail.com",
+        "telefono": "987654321",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 26",
+        "contrasena":"asdasdasdsdad"
+    },
+    {
+        "id": 27,
+        "nombre": "Pedro",
+        "apellido": "Rodriguez",
+        "email": "pedro@gmail.com",
+        "telefono": "876543210",
+        "Entidad": "Universidad de Murcia",
+        "direccion": "Calle de la Palma, 27",
+        "contrasena":"asdasdasdsdad"
+    }
+]

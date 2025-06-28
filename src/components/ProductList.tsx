@@ -61,7 +61,7 @@ const ProductList = ({ products, removeProduct, onContinue }: ProductListProps) 
                 <td className="py-4 px-2">
                   <div className="flex items-center">
                     <img
-                      src="src/assets/placeholder.jpg"
+                      src="/assets/placeholder.jpg"
                       alt={product.name}
                       className="w-16 h-16 object-cover rounded mr-4"
                     />

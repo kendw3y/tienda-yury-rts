@@ -35,7 +35,7 @@ const PaymentMethod = ({ onBack, onSelectPayment, selectedPayment, total }: Paym
                   className={`w-10 h-10 rounded-full flex items-center justify-center mr-4 transition-colors duration-300
                     }`}
                 >
-                  <img src="src\assets\cu.etecsa.cubacel.tr.tm-v130 (1).png" alt="transfermovil" className="w-12 " />
+                  <img src="\assets\cu.etecsa.cubacel.tr.tm-v130 (1).png" alt="transfermovil" className="w-12 " />
                 </div>
                 <div>
                   <div className="font-bold text-xl  text-blanco">Transfermóvil</div>
@@ -54,7 +54,7 @@ const PaymentMethod = ({ onBack, onSelectPayment, selectedPayment, total }: Paym
                   className={`w-10 h-10 rounded-full flex items-center justify-center mr-4 transition-colors duration-300 ${selectedPayment === "transfer" ? "bg-rosa/30" : "bg-background"
                     }`}
                 >
-                  <img src="src\assets\cu.xetid.apk.enzona-v20002 (1).png" alt="Logo de enzona" className="w-12 " />
+                  <img src="\assets\cu.xetid.apk.enzona-v20002 (1).png" alt="Logo de enzona" className="w-12 " />
                 </div>
                 <div>
                   <div className="font-bold text-xl">ENZONA</div>

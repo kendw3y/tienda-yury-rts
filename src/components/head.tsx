@@ -17,7 +17,7 @@
 
           <div className="flex items-center justify-center flex-1 mx-4 min-w-0">
             <div onClick={()=>navigate("/gestion_user")} className="flex items-center cursor-pointer">
-              <img src="src/assets/logo.png" alt="Logo" className="h-10 w-10 mr-3 flex-shrink-0" />
+              <img src="/assets/logo.png" alt="Logo" className="h-10 w-10 mr-3 flex-shrink-0" />
               <div className="text-center min-w-0">
                 <h1 className="text-xl md:text-2xl font-bold m-0 leading-tight">YURY <span className="text-base md:text-lg font-medium">impresiones</span></h1>
                 <p className="text-xs md:text-sm m-0 text-gray-300 leading-tight">De tu sueño a la realidad</p>

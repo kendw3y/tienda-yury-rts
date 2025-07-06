@@ -1,6 +1,6 @@
 
-import { AdminUser } from './components/AdminUser'
-import { ShopCar } from './components/ShopCar'
+import { AdminUser } from './01-AdminUser/pages/AdminUser'
+import { ShopCar } from './pages/ShopCar'
 import {
     BrowserRouter as Router,
     Routes,

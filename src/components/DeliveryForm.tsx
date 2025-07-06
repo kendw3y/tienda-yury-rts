@@ -1,24 +1,15 @@
 "use client"
 
 import type React from "react"
-import type { DeliveryInfo } from "./ShopCar"
 import SelectInterconectados from "./SelectInterconectados"
 
 interface DeliveryFormProps {
-  deliveryInfo: DeliveryInfo
-  onChange: (info: DeliveryInfo) => void
   onBack: () => void
   onContinue: () => void
 }
 
-const DeliveryForm = ({ deliveryInfo, onChange, onBack, onContinue }: DeliveryFormProps) => {
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target
-    onChange({
-      ...deliveryInfo,
-      [name]: value,
-    })
-  }
+export const DeliveryForm = ({  onBack, onContinue }: DeliveryFormProps) => {
+
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -36,8 +27,6 @@ const DeliveryForm = ({ deliveryInfo, onChange, onBack, onContinue }: DeliveryFo
             <input 
               type="text"
               name="fullName"
-              value={deliveryInfo.fullName}
-              onChange={handleChange}
               className="w-full px-3 py-2  rounded-md bg-gray-800 text-blanco focus:outline-none focus:bg-gray-700 transition-colors ease-in-out duration-500 "
               required
             />
@@ -48,8 +37,6 @@ const DeliveryForm = ({ deliveryInfo, onChange, onBack, onContinue }: DeliveryFo
             <input 
               type="tel"
               name="phone"
-              value={deliveryInfo.phone}
-              onChange={handleChange}
               className="w-full px-3 py-2 rounded-md bg-gray-800 text-blanco focus:outline-none  focus:bg-gray-700 transition-colors ease-in-out duration-500"
               required
             />
@@ -60,8 +47,6 @@ const DeliveryForm = ({ deliveryInfo, onChange, onBack, onContinue }: DeliveryFo
             <input 
               type="email"
               name="email"
-              value={deliveryInfo.email}
-              onChange={handleChange}
               className="w-full px-3 py-2 rounded-md bg-gray-800  text-blanco focus:outline-none  focus:bg-gray-700 transition-colors ease-in-out duration-500"
               required
             />
@@ -72,8 +57,6 @@ const DeliveryForm = ({ deliveryInfo, onChange, onBack, onContinue }: DeliveryFo
             <input 
               type="text"
               name="address"
-              value={deliveryInfo.address}
-              onChange={handleChange}
               className="w-full px-3 py-2 rounded-md bg-gray-800 text-blanco focus:outline-none  focus:bg-gray-700 transition-colors ease-in-out duration-500"
               required
             />

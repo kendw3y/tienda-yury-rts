@@ -1,4 +1,47 @@
-[
+{
+    "products":[
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S23 Ultra S918B/DS 256GB",
+      "price": 1049.99,
+      "image": "/placeholder.svg?height=80&width=80",
+      "color": "Phantom Black",
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "name": "JBL Charge 3 Waterproof Portable Bluetooth Speaker",
+      "price": 109.99,
+      "image": "/placeholder.svg?height=80&width=80",
+      "color": "Black",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "GARMIN Fenix 7X 010-02541-11 Exclusive Version",
+      "price": 349.99,
+      "image": "/placeholder.svg?height=80&width=80",
+      "color": "Black",
+      "quantity": 3
+    },
+    {
+      "id": 4,
+      "name": "Beats Fit Pro - True Wireless Noise Cancelling Earbuds",
+      "price": 199.99,
+      "image": "/placeholder.svg?height=80&width=80",
+      "color": "Phantom Black",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "JLab Epic Air Sport ANC True Wireless Earbuds",
+      "price": 99.99,
+      "image": "/placeholder.svg?height=80&width=80",
+      "color": "Black",
+      "quantity": 1
+    }
+  ] ,
+    "usuarios" : [
     {
         "id": 1,
         "nombre_apellidos": "Karel Gonzalez",
@@ -242,4 +285,4 @@
         "direccion": "Calle de la Palma, 27",
         "contrasena":"asdasdasdsdad"
     }
-]
+]}

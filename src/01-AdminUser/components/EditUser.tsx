@@ -1,20 +1,16 @@
 
-import { type User } from "../types/types";
 
 import { schema } from "./AddUser";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-
-
-
+import type { User } from "@/types/types";
+import { motion } from "framer-motion";
+import { CoustomButton } from "./CoustomButton";
 interface EditUserProps {
   isVisible: () => void;
-  user: User;
+  user?: User;
 }
-//endpoint de prueba
-
-  
-  
+ 
 
 export function EditUser({ isVisible, user }: EditUserProps) {
   const {
@@ -32,17 +28,18 @@ export function EditUser({ isVisible, user }: EditUserProps) {
     isVisible();
   });
   return (
-    <div className="flex flex-col items-center justify-center fixed top-0 left-0 right-0 bottom-0 z-50 bg-black/50  ">
-      <div className="bg-gray-900 rounded-xl shadow-xl flex flex-col gap-6 px-8 py-6 w-full max-w-3xl ">
-        <h1 className="text-3xl font-bold text-center">Registrar</h1>
+    <div className="flex flex-col items-center justify-center fixed top-0 left-0 right-0 bottom-0 z-50 bg-[#000000be] ">
+      <motion.div layout  className="bg-gray-900 rounded-2xl shadow-xl flex flex-col gap-6 px-8 py-6 w-full max-w-3xl ">
+        <h1 className="text-3xl font-bold text-center">Editar</h1>
         <form action="" className="flex flex-col gap-4" onSubmit={onsubmit}>
           <div className="grid md:grid-cols-2 grid-cols-1  gap-4">
+
             <div>
               <label className="block  font-medium text-blanco mb-1">
                 Nombre y Apellidos
               </label>
               <input
-                defaultValue={user.nombre_apellidos}
+                defaultValue={user?.nombre_apellidos}
                 type="tel"
                 className="w-full px-3 py-2 rounded-md bg-gray-800 text-blanco focus:outline-none  focus:bg-gray-700 transition-colors ease-in-out duration-500"
                 {...register("nombre_apellidos")}
@@ -56,7 +53,7 @@ export function EditUser({ isVisible, user }: EditUserProps) {
                 Teléfono
               </label>
               <input
-                defaultValue={user.telefono}
+                defaultValue={user?.telefono}
                 type="tel"
                 className="w-full px-3 py-2 rounded-md bg-gray-800 text-blanco focus:outline-none  focus:bg-gray-700 transition-colors ease-in-out duration-500"
                 {...register("telefono")}
@@ -68,7 +65,7 @@ export function EditUser({ isVisible, user }: EditUserProps) {
                 Correo electrónico
               </label>
               <input
-                defaultValue={user.email}
+                defaultValue={user?.email}
                 type="text"
                 className="w-full px-3 py-2 rounded-md bg-gray-800 text-blanco focus:outline-none  focus:bg-gray-700 transition-colors ease-in-out duration-500"
                 {...register("correo")}
@@ -80,7 +77,7 @@ export function EditUser({ isVisible, user }: EditUserProps) {
                 Entidad
               </label>
               <input
-                defaultValue={user.Entidad}
+                defaultValue={user?.Entidad}
                 type="tel"
                 className="w-full px-3 py-2 rounded-md bg-gray-800 text-blanco focus:outline-none  focus:bg-gray-700 transition-colors ease-in-out duration-500"
                 {...register("entidad")}
@@ -105,7 +102,7 @@ export function EditUser({ isVisible, user }: EditUserProps) {
                 Dirección
               </label>
               <input
-                defaultValue={user.direccion}
+                defaultValue={user?.direccion}
                 type="tel"
                 className="w-full px-3 py-2 rounded-md bg-gray-800 text-blanco focus:outline-none  focus:bg-gray-700 transition-colors ease-in-out duration-500"
                 {...register("direccion")}
@@ -129,21 +126,23 @@ export function EditUser({ isVisible, user }: EditUserProps) {
             </div>
           </div>
           <div className="flex justify-end center gap-6  items-end">
-            <button
-              type="submit"
-              className="bg-[#335BC6] hover:bg-[#335BC6]/50 transition-colors duration-300 ease-in-out rounded-3xl px-8 py-2"
-            >
-              Aceptar
-            </button>
-            <button
-              className="bg-[#335BC6] hover:bg-[#335BC6]/50 transition-colors duration-300 ease-in-out rounded-3xl px-8 py-2 "
-              onClick={() => isVisible()}
-            >
-              Cancelar
-            </button>
+            <CoustomButton
+              handleOnClick={() => {}}
+              tittleButton="Aceptar"
+              colorButton="#335BC6"
+              hoverColor="#1c398e"
+            />
+            <CoustomButton
+              handleOnClick={() => isVisible()}
+              tittleButton="Cancelar"
+              colorButton="#335BC6"
+              hoverColor="#1c398e"
+            />
+            
+            
           </div>
         </form>
-      </div>
+      </motion.div>
     </div>
   );
 }

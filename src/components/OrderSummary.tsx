@@ -1,13 +1,9 @@
-"use client"
+import type { Product } from "@/interfaces/interfaces"
 
-import type { Product, DeliveryInfo } from "./ShopCar"
 
 interface OrderSummaryProps {
   products: Product[]
-  deliveryInfo: DeliveryInfo
   totals: {
-    subtotal: string
-    tax: string
     delivery: string
     total: string
   }
@@ -15,8 +11,7 @@ interface OrderSummaryProps {
   onContinue: () => void
 }
 
-const OrderSummary = ({ products, deliveryInfo, totals, onBack, onContinue }: OrderSummaryProps) => {
-  console.log(deliveryInfo)
+export const OrderSummary = ({ products, totals, onBack, onContinue }: OrderSummaryProps) => {
   return (
     <div className="bg-gray-900 rounded-lg shadow p-6 flex flex-col items-center justify-center ">
       <h2 className="text-2xl font-bold mb-6 text-[#D40C63] ">Resumen del Pedido</h2>
@@ -35,7 +30,7 @@ const OrderSummary = ({ products, deliveryInfo, totals, onBack, onContinue }: Or
                 <td className="py-4 px-2">
                   <div className="flex items-center">
                     <img
-                      src="src\assets\placeholder.jpg"
+                      src="./assets/placeholder.jpg"
                       alt={product.name}
                       className="w-12 h-12 object-cover rounded mr-4"
                     />

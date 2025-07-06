@@ -1,7 +1,7 @@
   import { Menu, Search, Heart, ShoppingCart, User } from 'lucide-react';
   import { useState } from 'react';
   import { useNavigate } from 'react-router-dom';
-  const Header: React.FC = () => {
+  const Header = () => {
     const [sideMenuOpen, setSideMenuOpen] = useState(false);
     const navigate=useNavigate()
     return (

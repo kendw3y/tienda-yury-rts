@@ -1,12 +1,15 @@
-import Header from "./head";
-import { Table } from "./Table";
-import { type User } from "../types/types";
-import usuarios from "../data/usuarios.json";
+import Header from "../../components/head";
+import { Table } from "../../components/Table";
+import { type User } from "../../types/types";
+import {usuarios} from '../../data/data.json'
+import type { Columns } from "@/interfaces/interfaces";
+
 
 
 export function AdminUser() {
   const data: User[] = usuarios;
-  const columnas = [
+  
+  const columnas : Columns[] = [
     {
       header:"Nombre y apellidos",
       accessorKey:"nombre_apellidos",
@@ -29,16 +32,15 @@ export function AdminUser() {
     },
   ];
   
-
   return (
     <>
-      <div className="flex flex-col  nunito-normal ">
+      <div className="flex flex-col w-screen nunito-normal ">
         <Header />
-        <div className="p-8">
+        <div className="w-full ">
           <Table
             data={data}
             columnas={columnas}
-            title="Usuarios"
+            title="Gestión de usuarios"
           />
         </div>
       </div>
